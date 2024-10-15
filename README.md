@@ -1,0 +1,5 @@
+This is a collection of Nix derivations to reprodicibly build the [devkitARM toolchain](https://github.com/devkitPro/buildscripts/releases/tag/devkitARM_r65), which contains tools to build GBA games.
+
+These derivations are largely just an alternative to replace the [buildscripts](https://github.com/devkitPro/buildscripts/releases) used by devkitPro developers to compile those tools. This is more of a personal project to get familiar with Nix-based build systems by packaging a substantial project with it, but could theoretically be used to provide an alternative source for those tools. My main goal of this entire endeavor is to avoid using pacman to install these tools. Target systems include MacOS and Linux-y OSes, on aarch64 and x86_64.
+
+**Please not that the devkitPro team does not approve of distributing releases other than the ones they build and distribute.** See https://devkitpro.org/wiki/Getting_Started for more information.
